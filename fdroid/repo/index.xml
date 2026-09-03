@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="Railbird" pubkey="3082038030820268a003020102020900e9df66d898b7e645300d06092a864886f70d01010b0500306d310b3009060355040613025553310b3009060355040813024f523111300f06035504071308506f72746c616e643111300f060355040a13085261696c626972643111300f060355040b1308446576205465616d311830160603550403130f4c6f657779204d616c6b6f766963683020170d3234303430333138353435365a180f32303531303832303138353435365a306d310b3009060355040613025553310b3009060355040813024f523111300f06035504071308506f72746c616e643111300f060355040a13085261696c626972643111300f060355040b1308446576205465616d311830160603550403130f4c6f657779204d616c6b6f7669636830820122300d06092a864886f70d01010105000382010f003082010a0282010100d2c230879668e2a8bb6f485eedec54c2e3c0404303ddc490d4b9212073615b096fb4fdf3ddf06f157909d5d8a921b0c0d644fbb20ec74b55d37bdd4d05d3814bae6b79a277f20107df693fb7d9d207d890ee015dd31e087e0985ac540e57644abf46c5dfc206739f98c00cf0dcc58be422c8ef1d9aeb5a94ed6f90b0c932870bd6b0a59a697046abc3aeec81bb5d7bd1520f0e1965d829c29121d03a07be88e904703034c31dcfc8b8a6172fdd0265821518315d6dbfb25f9016dfc0fbf128758d138e44d352af16a6487a7ccaa98a5f35d9705eba2719b6bf730597ac76ca945e68f41b9b0db717d06013a1f369fa5a101ffb0141053218e59a072afc267b350203010001a321301f301d0603551d0e0416041464e2c0e75e700b525801bac92214b39cb0c47783300d06092a864886f70d01010b050003820101000f081cb01bd2adea44d62454d67bba33304c341dd00b5e30dd07eb612851c6f9bb5ea3dbcc3d640bf04438099516a4c9a3b566585c66108a99a841804f9d83b1c028a9ee0be9b3b7771f92ed7c2f14aae16210e879be1964e7234b6648ca7ee19aa255fb93eeeec67da36c202bb868bdc304600f7ebabaad4c839ca4159df325a066da1e4b697f82b55a54904db91a9c0e81f0899a8a2996c12dc054e4cc9af8e887d281b102f9506cb276abb36152085ffe876d05f18a41742cad354ab963a1f30a1d7d5b0cf6483fe1917f9dc1705a846a9d654277feaaa3fca14e8dd7081ad586ece2423c6464cd2c0a01e1793750f14bbc8a54de5893e579443d4ffb3175" timestamp="1788396834" url="https://colonelpanic8.github.io/railbird-fdroid/fdroid/repo" version="20002">
+		<description>Official Android repository for Railbird. These are the same signed APKs attached to releases on dev.railbird.ai, so either installation source can upgrade the other in place.</description>
+	</repo>
+	<application id="ai.railbird.app">
+		<id>ai.railbird.app</id>
+		<added>2026-09-03</added>
+		<lastupdated>2026-09-03</lastupdated>
+		<name>Railbird</name>
+		<summary>Record, score, and analyze your pool game.</summary>
+		<desc>Railbird turns your phone into an intelligent companion for pool.
+
+Record matches, keep score, review individual shots, and use detailed analysis
+to understand your game. Railbird's camera workflow is designed for the pool
+table, making it easy to capture sessions and revisit the moments that matter.
+
+An account and access to Railbird's hosted services are required for core
+features.
+</desc>
+		<license>LicenseRef-Railbird-Proprietary</license>
+		<categories>Sports &amp; Health</categories>
+		<category>Sports &amp; Health</category>
+		<web>https://railbird.ai</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Railbird Inc.</author>
+		<marketversion>1.2.3</marketversion>
+		<marketvercode>307</marketvercode>
+		<antifeatures>NonFreeDep,NonFreeNet,Tracking</antifeatures>
+		<package>
+			<version>1.2.3</version>
+			<versioncode>307</versioncode>
+			<apkname>v1.2.3-railbird-v1.2.3-307-arm64-v8a.apk</apkname>
+			<hash type="sha256">765f9562cff9289f3ec3d163374cc9feda616715dd84c87e3214e1bf15f2bbe2</hash>
+			<size>57067932</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-03</added>
+			<sig>a1c9d11cb5a9a1b7e7413f58eb13649c</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_CUSTOM_AUDIENCE,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_MEDIA_VISUAL_USER_SELECTED,SYSTEM_ALERT_WINDOW,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.android.vending.BILLING,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES</permissions>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+		<package>
+			<version>1.2.2</version>
+			<versioncode>306</versioncode>
+			<apkname>v1.2.2-railbird-v1.2.2-306-arm64-v8a.apk</apkname>
+			<hash type="sha256">362ebf7f7641012222fda835005833965aa13720134412f149f0baaedd0a7164</hash>
+			<size>57186644</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-03</added>
+			<sig>a1c9d11cb5a9a1b7e7413f58eb13649c</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_CUSTOM_AUDIENCE,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_MEDIA_VISUAL_USER_SELECTED,SYSTEM_ALERT_WINDOW,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.android.vending.BILLING,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES</permissions>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+		<package>
+			<version>1.2.0</version>
+			<versioncode>304</versioncode>
+			<apkname>v1.2.0-railbird-v1.2.0-304-arm64-v8a.apk</apkname>
+			<hash type="sha256">31d07882dc1245d5545bdf32a092f22cb772765dc53b64ae16e08bcb86a3dcc4</hash>
+			<size>57179407</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-09-03</added>
+			<sig>a1c9d11cb5a9a1b7e7413f58eb13649c</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_CUSTOM_AUDIENCE,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_MEDIA_VISUAL_USER_SELECTED,SYSTEM_ALERT_WINDOW,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.android.vending.BILLING,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES</permissions>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+	</application>
+</fdroid>

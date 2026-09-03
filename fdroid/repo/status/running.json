@@ -1,0 +1,38 @@
+{
+  "antiFeatures": {
+    "NonFreeDep": {
+      "apps": [
+        "ai.railbird.app"
+      ]
+    },
+    "NonFreeNet": {
+      "apps": [
+        "ai.railbird.app"
+      ]
+    },
+    "Tracking": {
+      "apps": [
+        "ai.railbird.app"
+      ]
+    }
+  },
+  "apksigner": "/nix/store/yyzdld67cawz58vqvgp4l1as7vrf2h4l-apksigner-34.0.5-unstable-2024-03-06/bin/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/nix/store/6yvvi6aq4llirk8l3jhbsdpsvyd55334-fdroidserver-2.3.5/bin/fdroid update",
+    "--pretty",
+    "--verbose"
+  ],
+  "disabled": [],
+  "endTimestamp": 1788396836160,
+  "failedBuilds": {},
+  "jarsigner": "/nix/store/2y0qz1r84ckgmmrnfvx9bbysnyn1zb61-openjdk-17.0.20+8/bin/jarsigner",
+  "keytool": "/nix/store/2y0qz1r84ckgmmrnfvx9bbysnyn1zb61-openjdk-17.0.20+8/bin/keytool",
+  "needsUpdate": [],
+  "noPackages": [],
+  "noUpdateCheck": [
+    "ai.railbird.app"
+  ],
+  "startTimestamp": 1788425617000,
+  "subcommand": "update"
+}

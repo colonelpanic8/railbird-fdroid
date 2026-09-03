@@ -1,0 +1,1000 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Railbird Beta"
+    },
+    "description": {
+      "en-US": "Official Android repository for Railbird. These are the same signed APKs attached to releases on dev.railbird.ai, so either installation source can upgrade the other in place."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "f1fc4be5e6b066f1b98c091fb7ccf22980bdb7061d45d81f6a1e39c0e9a15a6a",
+        "size": 37316
+      }
+    },
+    "address": "https://colonelpanic8.github.io/railbird-fdroid/fdroid/beta/repo",
+    "timestamp": 1788396885000,
+    "antiFeatures": {
+      "NonFreeDep": {
+        "name": {
+          "en-US": "Non-free dependencies"
+        },
+        "description": {
+          "en-US": "Depends on proprietary libraries or services."
+        }
+      },
+      "NonFreeNet": {
+        "name": {
+          "en-US": "Non-free network services"
+        },
+        "description": {
+          "en-US": "Depends on proprietary network services."
+        }
+      },
+      "Tracking": {
+        "name": {
+          "en-US": "Tracking"
+        },
+        "description": {
+          "en-US": "Reports diagnostic or usage data to a third-party service."
+        }
+      }
+    },
+    "categories": {
+      "Sports & Health": {
+        "name": {
+          "en-US": "Sports & Health"
+        },
+        "description": {
+          "en-US": "Apps for sports, training, and health."
+        }
+      }
+    }
+  },
+  "packages": {
+    "ai.railbird.app": {
+      "metadata": {
+        "added": 1788396878000,
+        "categories": [
+          "Sports & Health"
+        ],
+        "lastUpdated": 1788396885000,
+        "license": "LicenseRef-Railbird-Proprietary",
+        "webSite": "https://railbird.ai",
+        "authorName": "Railbird Inc.",
+        "name": {
+          "en-US": "Railbird"
+        },
+        "summary": {
+          "en-US": "Record, score, and analyze your pool game."
+        },
+        "description": {
+          "en-US": "Railbird turns your phone into an intelligent companion for pool.\n\nRecord matches, keep score, review individual shots, and use detailed analysis\nto understand your game. Railbird's camera workflow is designed for the pool\ntable, making it easy to capture sessions and revisit the moments that matter.\n\nAn account and access to Railbird's hosted services are required for core\nfeatures.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/ai.railbird.app/en-US/icon_0tO7EhhrGCgevRLLkOBDlORXM9B7xn26p7blWJm8m0w=.png",
+            "sha256": "d2d3bb12186b18281ebd12cb90e04394e45733d07bc67dbaa7b6e55899bc9b4c",
+            "size": 37304
+          }
+        },
+        "preferredSigner": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+      },
+      "versions": {
+        "c89de8c97f65bf73242f014cd7431d5d73be7660845d983bac731eb885869e98": {
+          "added": 1788396883000,
+          "file": {
+            "name": "/v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-arm64-v8a.apk",
+            "sha256": "c89de8c97f65bf73242f014cd7431d5d73be7660845d983bac731eb885869e98",
+            "size": 56280316
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.1.18-beta.5",
+            "versionCode": 294,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "a0be320ee1513d3ee91193ff0ef7b91a98323da03bba5962abf93bce6962ed24": {
+          "added": 1788396884000,
+          "file": {
+            "name": "/v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-armeabi-v7a.apk",
+            "sha256": "a0be320ee1513d3ee91193ff0ef7b91a98323da03bba5962abf93bce6962ed24",
+            "size": 54049153
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.1.18-beta.5",
+            "versionCode": 294,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "7e415e879c9ac26f22f3b68444b3dffce017e9114cff9664608ed4865cbff465": {
+          "added": 1788396885000,
+          "file": {
+            "name": "/v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-x86.apk",
+            "sha256": "7e415e879c9ac26f22f3b68444b3dffce017e9114cff9664608ed4865cbff465",
+            "size": 56974031
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.1.18-beta.5",
+            "versionCode": 294,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "3ed330c8e53933e1dea9338b209e2452bd2eb0eba0bd6e93df1ce9a2033a7b28": {
+          "added": 1788396885000,
+          "file": {
+            "name": "/v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-x86_64.apk",
+            "sha256": "3ed330c8e53933e1dea9338b209e2452bd2eb0eba0bd6e93df1ce9a2033a7b28",
+            "size": 57621247
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.1.18-beta.5",
+            "versionCode": 294,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "dee5d3fd9ebd76cf79df815ea9fbdde5b03b2023808c93adf46e335d1164d3e4": {
+          "added": 1788396881000,
+          "file": {
+            "name": "/v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-arm64-v8a.apk",
+            "sha256": "dee5d3fd9ebd76cf79df815ea9fbdde5b03b2023808c93adf46e335d1164d3e4",
+            "size": 56281356
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.1.18-beta.4",
+            "versionCode": 293,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "c0f9615cf043a4756ad89cf0f26769399a7c76eade12832728325df077884065": {
+          "added": 1788396881000,
+          "file": {
+            "name": "/v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-armeabi-v7a.apk",
+            "sha256": "c0f9615cf043a4756ad89cf0f26769399a7c76eade12832728325df077884065",
+            "size": 54050209
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.1.18-beta.4",
+            "versionCode": 293,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "cdfbeb49e08f53e17a52a9eabb1d363e4099273560683b4bdd3490f84ca54479": {
+          "added": 1788396882000,
+          "file": {
+            "name": "/v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-x86.apk",
+            "sha256": "cdfbeb49e08f53e17a52a9eabb1d363e4099273560683b4bdd3490f84ca54479",
+            "size": 56975079
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.1.18-beta.4",
+            "versionCode": 293,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "7cd90a2862089d276d270e2a4c4f67d084bf5364c028e52917d731dc093a36aa": {
+          "added": 1788396883000,
+          "file": {
+            "name": "/v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-x86_64.apk",
+            "sha256": "7cd90a2862089d276d270e2a4c4f67d084bf5364c028e52917d731dc093a36aa",
+            "size": 57622327
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.1.18-beta.4",
+            "versionCode": 293,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "15a32cd30c056392f62b80ff3c6961605423e164e3ca91449fa2120217a21248": {
+          "added": 1788396878000,
+          "file": {
+            "name": "/v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-arm64-v8a.apk",
+            "sha256": "15a32cd30c056392f62b80ff3c6961605423e164e3ca91449fa2120217a21248",
+            "size": 58492098
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.1.18-beta.2",
+            "versionCode": 291,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "15ca2a92ca0fb8c8083fae5ff2159c675380420889ef57b0c6c6f3f8be9b32dd": {
+          "added": 1788396879000,
+          "file": {
+            "name": "/v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-armeabi-v7a.apk",
+            "sha256": "15ca2a92ca0fb8c8083fae5ff2159c675380420889ef57b0c6c6f3f8be9b32dd",
+            "size": 56853155
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.1.18-beta.2",
+            "versionCode": 291,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "e8bb1f16c4b30a063abaa02ebdc0d35163e6e281cffbe60114f01be9a45cc081": {
+          "added": 1788396879000,
+          "file": {
+            "name": "/v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-x86.apk",
+            "sha256": "e8bb1f16c4b30a063abaa02ebdc0d35163e6e281cffbe60114f01be9a45cc081",
+            "size": 59196365
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.1.18-beta.2",
+            "versionCode": 291,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        },
+        "9d625cf7c736def04198e63c80f3e1895fe4253ccadba2df4ce76ea222ce28a3": {
+          "added": 1788396880000,
+          "file": {
+            "name": "/v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-x86_64.apk",
+            "sha256": "9d625cf7c736def04198e63c80f3e1895fe4253ccadba2df4ce76ea222ce28a3",
+            "size": 60512743
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.1.18-beta.2",
+            "versionCode": 291,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Railbird includes proprietary Google Play, Firebase, and Sentry dependencies."
+            },
+            "NonFreeNet": {
+              "en-US": "Core account, video processing, and analysis features use Railbird's hosted services."
+            },
+            "Tracking": {
+              "en-US": "Railbird uses Sentry and Firebase services for diagnostics and app operation."
+            }
+          }
+        }
+      }
+    }
+  }
+}

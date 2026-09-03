@@ -1,0 +1,898 @@
+{
+  "repo": {
+    "timestamp": 1788396885000,
+    "version": 20002,
+    "name": "Railbird Beta",
+    "icon": "icon.png",
+    "address": "https://colonelpanic8.github.io/railbird-fdroid/fdroid/beta/repo",
+    "description": "Official Android repository for Railbird. These are the same signed APKs attached to releases on dev.railbird.ai, so either installation source can upgrade the other in place."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "antiFeatures": [
+        "NonFreeDep",
+        "NonFreeNet",
+        "Tracking"
+      ],
+      "authorName": "Railbird Inc.",
+      "categories": [
+        "Sports & Health"
+      ],
+      "suggestedVersionName": "1.1.18-beta.5",
+      "suggestedVersionCode": "294",
+      "license": "LicenseRef-Railbird-Proprietary",
+      "webSite": "https://railbird.ai",
+      "added": 1788396878000,
+      "packageName": "ai.railbird.app",
+      "lastUpdated": 1788396885000,
+      "localized": {
+        "en-US": {
+          "description": "Railbird turns your phone into an intelligent companion for pool.\n\nRecord matches, keep score, review individual shots, and use detailed analysis\nto understand your game. Railbird's camera workflow is designed for the pool\ntable, making it easy to capture sessions and revisit the moments that matter.\n\nAn account and access to Railbird's hosted services are required for core\nfeatures.\n",
+          "icon": "icon_0tO7EhhrGCgevRLLkOBDlORXM9B7xn26p7blWJm8m0w=.png",
+          "name": "Railbird",
+          "summary": "Record, score, and analyze your pool game."
+        }
+      }
+    }
+  ],
+  "packages": {
+    "ai.railbird.app": [
+      {
+        "added": 1788396883000,
+        "apkName": "v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-arm64-v8a.apk",
+        "hash": "c89de8c97f65bf73242f014cd7431d5d73be7660845d983bac731eb885869e98",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 56280316,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 294,
+        "versionName": "1.1.18-beta.5"
+      },
+      {
+        "added": 1788396884000,
+        "apkName": "v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-armeabi-v7a.apk",
+        "hash": "a0be320ee1513d3ee91193ff0ef7b91a98323da03bba5962abf93bce6962ed24",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 54049153,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 294,
+        "versionName": "1.1.18-beta.5"
+      },
+      {
+        "added": 1788396885000,
+        "apkName": "v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-x86.apk",
+        "hash": "7e415e879c9ac26f22f3b68444b3dffce017e9114cff9664608ed4865cbff465",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 56974031,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 294,
+        "versionName": "1.1.18-beta.5"
+      },
+      {
+        "added": 1788396885000,
+        "apkName": "v1.1.18-beta.5-railbird-v1.1.18-beta.5-294-x86_64.apk",
+        "hash": "3ed330c8e53933e1dea9338b209e2452bd2eb0eba0bd6e93df1ce9a2033a7b28",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 57621247,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 294,
+        "versionName": "1.1.18-beta.5"
+      },
+      {
+        "added": 1788396881000,
+        "apkName": "v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-arm64-v8a.apk",
+        "hash": "dee5d3fd9ebd76cf79df815ea9fbdde5b03b2023808c93adf46e335d1164d3e4",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 56281356,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 293,
+        "versionName": "1.1.18-beta.4"
+      },
+      {
+        "added": 1788396881000,
+        "apkName": "v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-armeabi-v7a.apk",
+        "hash": "c0f9615cf043a4756ad89cf0f26769399a7c76eade12832728325df077884065",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 54050209,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 293,
+        "versionName": "1.1.18-beta.4"
+      },
+      {
+        "added": 1788396882000,
+        "apkName": "v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-x86.apk",
+        "hash": "cdfbeb49e08f53e17a52a9eabb1d363e4099273560683b4bdd3490f84ca54479",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 56975079,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 293,
+        "versionName": "1.1.18-beta.4"
+      },
+      {
+        "added": 1788396883000,
+        "apkName": "v1.1.18-beta.4-railbird-v1.1.18-beta.4-293-x86_64.apk",
+        "hash": "7cd90a2862089d276d270e2a4c4f67d084bf5364c028e52917d731dc093a36aa",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 57622327,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 293,
+        "versionName": "1.1.18-beta.4"
+      },
+      {
+        "added": 1788396878000,
+        "apkName": "v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-arm64-v8a.apk",
+        "hash": "15a32cd30c056392f62b80ff3c6961605423e164e3ca91449fa2120217a21248",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 58492098,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 291,
+        "versionName": "1.1.18-beta.2"
+      },
+      {
+        "added": 1788396879000,
+        "apkName": "v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-armeabi-v7a.apk",
+        "hash": "15ca2a92ca0fb8c8083fae5ff2159c675380420889ef57b0c6c6f3f8be9b32dd",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 56853155,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 291,
+        "versionName": "1.1.18-beta.2"
+      },
+      {
+        "added": 1788396879000,
+        "apkName": "v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-x86.apk",
+        "hash": "e8bb1f16c4b30a063abaa02ebdc0d35163e6e281cffbe60114f01be9a45cc081",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "x86"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 59196365,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 291,
+        "versionName": "1.1.18-beta.2"
+      },
+      {
+        "added": 1788396880000,
+        "apkName": "v1.1.18-beta.2-railbird-v1.1.18-beta.2-291-x86_64.apk",
+        "hash": "9d625cf7c736def04198e63c80f3e1895fe4253ccadba2df4ce76ea222ce28a3",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "ai.railbird.app",
+        "sig": "a1c9d11cb5a9a1b7e7413f58eb13649c",
+        "signer": "1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0",
+        "size": 60512743,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "ai.railbird.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 291,
+        "versionName": "1.1.18-beta.2"
+      }
+    ]
+  }
+}
