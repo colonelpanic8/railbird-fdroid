@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Railbird F-Droid Repository</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0 auto; max-width: 46rem; padding: 3rem 1.25rem;
+      font: 16px/1.6 system-ui, sans-serif; }
+    h1 { display: flex; align-items: center; gap: .8rem; }
+    h1 img { width: 3.2rem; height: 3.2rem; border-radius: .8rem; }
+    .button { display: inline-block; margin: .7rem 0 1.5rem; padding: .75rem 1.1rem;
+      border-radius: .5rem; background: #6579ff; color: white; font-weight: 650;
+      text-decoration: none; }
+    pre { padding: .9rem 1rem; border-radius: .5rem;
+      background: rgba(127,127,127,.14); white-space: pre-wrap;
+      overflow-wrap: anywhere; }
+    footer { margin-top: 3rem; opacity: .75; }
+  </style>
+</head>
+<body>
+  <h1><img src="fdroid/repo/icons/icon.png" alt="">Railbird F-Droid Repository</h1>
+  <p>
+    This is Railbird's official direct Android distribution channel. It serves
+    the same signed, architecture-specific APKs attached to Railbird's Gitea
+    releases, with automatic updates through an F-Droid-compatible client.
+  </p>
+  <a class="button" href="https://colonelpanic8.github.io/railbird-fdroid/fdroid/repo?fingerprint=1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0">Add this repository to F-Droid</a>
+  <p>If the button does not open your client, add this address manually:</p>
+  <pre>https://colonelpanic8.github.io/railbird-fdroid/fdroid/repo</pre>
+  <p>Verify the repository signing fingerprint (SHA-256):</p>
+  <pre>1B 04 9B 81 78 5F 05 09 C1 A4 C5 99 DB 6E B8 73 CB 90 2E 49 62 CE 78 52 8C 94 56 0F F9 7C 68 B0</pre>
+  <p>
+    Railbird requires an account and uses hosted services for core features.
+    The app also includes Google Play, Firebase, and Sentry dependencies.
+  </p>
+  <h2>Beta channel</h2>
+  <p>
+    Prerelease builds for early testing. Beta builds are signed with the same
+    key as regular releases, so a beta install upgrades a stable install in
+    place (and a later stable release supersedes the beta).
+  </p>
+  <a class="button" href="https://colonelpanic8.github.io/railbird-fdroid/fdroid/beta/repo?fingerprint=1b049b81785f0509c1a4c599db6eb873cb902e4962ce78528c94560ff97c68b0">Add the beta repository to F-Droid</a>
+  <p>Or add this address manually (same signing fingerprint):</p>
+  <pre>https://colonelpanic8.github.io/railbird-fdroid/fdroid/beta/repo</pre>
+  <footer><a href="https://railbird.ai">railbird.ai</a></footer>
+</body>
+</html>
